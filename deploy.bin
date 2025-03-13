@@ -1,0 +1,11 @@
+cd web_test
+
+npm run build
+
+xcopy ".\dist\" ".\..\" /E
+
+cd ..
+
+git add -A
+git commit -m 'New deployment'
+git push -f
