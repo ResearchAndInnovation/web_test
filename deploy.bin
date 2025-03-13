@@ -8,4 +8,4 @@ cd ..
 
 git add -A
 git commit -m 'New deployment'
-git push -f
+git push
